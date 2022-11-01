@@ -18,8 +18,8 @@ links.forEach(function(link){
         content.classList.add('fadeOutUp');
         content.classList.add('animated');
 
-        setTimeout(function(){
-            location.href = '/';
+        setTimeout(function(){ 
+            location.href = '/boletines'; 
         },600)
         
 
